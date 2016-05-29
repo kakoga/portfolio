@@ -1,0 +1,218 @@
+html {
+  background-color: #FCFCFC;
+  font-size: 100%;
+}
+
+/*******************/
+/*** all pages ******/
+/*******************/
+.container-fluid {
+  margin: 0;
+  padding: 0;
+
+}
+.navbar {
+  background-color: #FCFCFC;
+  border-style: none;
+  width: 100%;
+}
+
+@font-face {
+  font-family: FineStyle;
+  src: url(../fonts/FineStyle.ttf);
+}
+
+@font-face {
+  font-family: BebasNeue;
+  src: url(../fonts/BebasNeue.otf);
+}
+
+#name {
+  font-family: 'Alice', serif;
+  font-size: 200%;
+  font-weight: bolder;
+  color: #292929;
+}
+
+.title {
+  padding-left: 5%;
+  padding-top: 2%;
+}
+
+#title {
+  font-family: 'Abel', sans-serif;
+  font-size: 125%;
+  font-weight: bold;
+  letter-spacing: .5%;
+  color: #292929;
+}
+
+ul {
+  list-style: none;
+  padding-top: 2.75%;
+  font-family: 'Abel', sans-serif;
+  font-size: 120%;
+  font-weight: bold;
+}
+
+a {
+  color: #030303;
+}
+
+a:hover {
+  color: #4c516d;
+}
+
+
+/*******************/
+/*** index page ****/
+/*******************/
+
+.home {
+  background-image: url(../img/brooklyncopy.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+#placeholder {
+  margin-bottom: 1.75%;
+}
+
+/**************************************/
+/*** about, portfolio, contact page ***/
+/**************************************/
+
+.jumbotron {
+  background-color: #FCFCFC;
+  height: 75%;
+  margin-top: 10%;
+  margin-bottom: 10%;
+  margin-left: 8%;
+  margin-right: 8%;
+}
+
+.headline {
+  font-family: 'Alice', serif;
+  font-weight: bolder;
+  font-size: 500%;
+  margin-top: 0;
+}
+
+/*******************/
+/*** about page ****/
+/*******************/
+
+.about {
+  background-image: url(../img/columbiaunybw.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+#kim {
+  height: 85%;
+  width: 85%;
+  padding-left: 10%;
+}
+
+.bio {
+  font-family: 'Abel', sans-serif;
+  padding-top: 6%;
+}
+
+#prompt {
+  margin-bottom: 1%;
+}
+
+#skills {
+  list-style: disc;
+  padding-top: 0px;
+  font-weight: normal;
+  margin-bottom: 3%;
+}
+
+.biosize {
+  margin-top: 6%;
+  margin-bottom: 5.5%;
+}
+
+/* Does this color stand out enough? need to change? */
+strong {
+  color: #000000;
+}
+
+p {
+  margin-bottom: 0px;
+}
+
+
+/********************/
+/*** contact page ***/
+/********************/
+.contact {
+  background-image: url(../img/santafedepotsandiego.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.icon {
+  padding-left: 5%;
+  margin-bottom: 2%;
+}
+
+.space {
+  padding-top: 2%;
+  padding-left: 2%;
+}
+
+.contentbox {
+  margin-bottom: 15.75%;
+}
+
+/**********************/
+/*** portfolio page ***/
+/**********************/
+.portfolio {
+  background-image: url(../img/brooklynbridgemirror.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.placeholder {
+  margin-bottom: 10%;
+}
+
+.blurb {
+  padding-left: 1%;
+}
+
+.portfolioimg {
+  height: 100%;
+  width: 100%;
+  margin: 0%;
+}
+
+.center-block {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.btn {
+  margin: 0%;
+  padding: 0%;
+  border-style: none;
+  border-radius: 0%;
+}
+
+.modal-content p {
+  text-align: center;
+}
+
+/* need to adjust this - does not change 'active' state to gray */
+.btn.active.focus {
+  outline: 5px auto #d3d3d3;
+}
