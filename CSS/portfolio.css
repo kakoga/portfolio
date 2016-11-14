@@ -99,6 +99,12 @@ a:hover {
   margin-top: 0;
 }
 
+.close {
+  background-color: #FCFCFC;
+  font-size: 12px;
+  text-transform: uppercase;
+}
+
 /*******************/
 /*** about page ****/
 /*******************/
@@ -181,6 +187,10 @@ p {
   background-position: 50% 50%;
 }
 
+.portfoliorow {
+  margin-top: 15px;
+}
+
 .placeholder {
   margin-bottom: 10%;
 }
@@ -210,6 +220,14 @@ p {
 
 .modal-content p {
   text-align: center;
+}
+
+ #janelle a {
+   color: #4c004c;
+}
+
+.shadow {
+  box-shadow: 0 0 3px #808080;
 }
 
 /* need to adjust this - does not change 'active' state to gray */
